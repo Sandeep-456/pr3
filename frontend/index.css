@@ -1,0 +1,81 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+h1{
+  color:#000;
+}
+.bg-container{
+  font-family: Arial, sans-serif;
+  background-image:linear-gradient(150deg,#2b2a2a,#3b3939,#8c8c8c,#bfbdbd);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.form-container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px 5px #f3eeeef0;
+  width: 500px;
+}
+.form-input-container{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+}
+.input{
+  height: 40px;
+  border-radius: 6px;
+  background-color: #f0ebffc4;
+  border: solid 1px #702585;
+  outline:none;
+  font-size:14px;
+  color: #000;
+  font-weight: 500;
+  padding-left:12px;
+}
+.company-input{
+  margin-bottom: 30px
+}
+.btn-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  width: 150px;
+  padding: 12px;
+  background-color: #0f32fa;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top:35px;
+}
+
+button:hover {
+  background-color: #132485;
+}
+
+#responseMessage {
+  margin-top: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+#nameErrorMes{
+  font-size:12px;
+  font-weight: bold;
+  margin:0px;
+  margin-top:5px;
+  margin-bottom: 25px;
+}
+#emailErrorMes{
+  margin:0px;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  font-weight: bold;
+  font-size: 12px;
+}
