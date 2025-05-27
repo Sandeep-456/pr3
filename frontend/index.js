@@ -40,7 +40,7 @@ form.addEventListener("submit", async (event) => {
   if (!isValid) return;
 
   try {
-    const response = await fetch("http://localhost:5000/submit", {
+    const response = await fetch("https://pr3-hjc8.onrender.com/submit", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
